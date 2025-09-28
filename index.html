@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JES SYSTEMS | Desarrollo de Software y Programación Profesional</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Cormorant:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <img src="log.png.jpg" alt="JES SYSTEMS Desarrollo de Software y Programación">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#services">Servicios</a></li>
+                <li><a href="#portfolio">Portafolio</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <h1>Creamos el software que impulsa tu futuro.</h1>
+        <p>Soluciones a medida para empresas ambiciosas.</p>
+        <a href="#contact" class="cta-button">EMPEZAR UN PROYECTO</a>
+    </section>
+
+    <section id="services" class="section-padding">
+        <h2>Servicios que Impulsan tu Negocio</h2>
+        <p class="section-subtitle">En JES SYSTEMS convertimos tus ideas en soluciones de software sólidas y escalables.</p>
+
+        <div class="services-container">
+            
+            <div class="service-card">
+                <span class="icon-circle">🖥️</span>
+                <h3>Desarrollo Web (Full Stack)</h3>
+                <p>Diseño y programación de aplicaciones web complejas, desde el backend hasta interfaces de usuario modernas.</p>
+            </div>
+
+            <div class="service-card">
+                <span class="icon-circle">📱</span>
+                <h3>Aplicaciones Móviles Nativas</h3>
+                <p>Creación de apps para iOS y Android con rendimiento y experiencia de usuario optimizados.</p>
+            </div>
+
+            <div class="service-card">
+                <span class="icon-circle">💡</span>
+                <h3>Consultoría en Software</h3>
+                <p>Análisis de requerimientos, planificación de arquitectura de sistemas y optimización de procesos tecnológicos.</p>
+            </div>
+            
+        </div>
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="#contact" class="cta-button">SOLICITA UN ANÁLISIS GRATUITO</a>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section-padding portfolio-grid" style="background-color: #0A0A0A;">
+        <h2>Nuestro Portafolio de Éxito</h2>
+        <p class="section-subtitle">Casos de estudio que demuestran nuestra capacidad de innovación y resultados tangibles.</p>
+        
+        <div class="portfolio-container"> 
+            <div class="project-card">
+                <h3>Gestión Empresarial Inteligente</h3>
+                <p>Desarrollo de un ERP a medida para control de inventario y cadena de suministro (PHP/MySQL).</p>
+                <span class="tech-tag">#PHP</span><span class="tech-tag">#MySQL</span>
+                <a href="#" class="details-link">Ver Caso de Estudio →</a>
+            </div>
+            <div class="project-card">
+                <h3>App Móvil de Salud y Fitness</h3>
+                <p>Aplicación nativa para seguimiento de entrenamientos y dietas, optimizando la retención de usuarios.</p>
+                <span class="tech-tag">#React Native</span><span class="tech-tag">#UI/UX</span>
+                <a href="#" class="details-link">Ver Caso de Estudio →</a>
+            </div>
+            <div class="project-card">
+                <h3>Rediseño de E-commerce</h3>
+                <p>Migración y optimización de plataforma de comercio electrónico, con mejor rendimiento.</p>
+                <span class="tech-tag">#Web Performance</span><span class="tech-tag">#E-commerce</span>
+                <a href="#" class="details-link">Ver Caso de Estudio →</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <h2>¿Listo para empezar tu proyecto?</h2>
+        <p class="section-subtitle">Cuéntanos sobre tu idea. Nos pondremos en contacto contigo en menos de 24 horas.</p>
+
+        <form action="https://formspree.io/f/tu-id-de-formulario" method="POST" class="contact-form">
+            
+            <div class="form-group"><label for="name">Nombre Completo:</label><input type="text" id="name" name="name" required></div>
+            <div class="form-group"><label for="email">Correo Electrónico:</label><input type="email" id="email" name="_replyto" required></div>
+            <div class="form-group">
+                <label for="service">Servicio de Interés:</label>
+                <select id="service" name="service">
+                    <option value="desarrollo_web">Desarrollo Web (Full Stack)</option>
+                    <option value="app_movil">Aplicación Móvil</option>
+                    <option value="consultoria">Consultoría en Software</option>
+                </select>
+            </div>
+            <div class="form-group"><label for="message">Mensaje / Detalles del Proyecto:</label><textarea id="message" name="message" rows="5" required></textarea></div>
+
+            <button type="submit" class="submit-button">ENVIAR SOLICITUD</button>
+        </form>
+    </section>
+    
+    <footer class="footer">
+        <p>JES SYSTEMS | Diseño de Software & Programación</p>
+        <p>&copy; 2025. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
